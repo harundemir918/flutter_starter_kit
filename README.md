@@ -1,8 +1,6 @@
 # Flutter Starter Kit
 
 ![Screenshot 1](screens/1.png)
-![Screenshot 2](screens/2.png)
-![Screenshot 3](screens/3.png)
 
 Flutter Starter Kit is a simple starter app that provides a solid foundation for building Flutter applications. It includes core functionalities such as state management, theme changing, localization, and AdMob integration.
 
