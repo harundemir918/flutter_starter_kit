@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 
-import '../home/home_view.dart';
+import '../../../core/base/base_controller.dart';
 import 'components/splash_body.dart';
 
 class SplashView extends StatefulWidget {
@@ -14,14 +13,8 @@ class SplashView extends StatefulWidget {
 class _SplashViewState extends State<SplashView> {
   @override
   void initState() {
-    _openHomeView();
+    BaseController.splashController.openHomeView();
     super.initState();
-  }
-
-  void _openHomeView() {
-    Future.delayed(const Duration(seconds: 3), () {
-      Get.off(() => const HomeView());
-    });
   }
 
   @override
