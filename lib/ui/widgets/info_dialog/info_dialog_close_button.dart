@@ -14,7 +14,7 @@ class InfoDialogCloseButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => Container(
-        width: context.getDynamicWidth(0.3),
+        width: context.getDynamicWidth(0.4),
         height: context.getDynamicHeight(0.15),
         margin: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
         child: ElevatedButton(
