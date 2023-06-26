@@ -4,6 +4,9 @@ Date: 26.06.2023
 */
 
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+
+import '../../../../core/translations/translation_keys.dart';
 
 class HomeDescription extends StatelessWidget {
   const HomeDescription({
@@ -14,10 +17,10 @@ class HomeDescription extends StatelessWidget {
   Widget build(BuildContext context) => Padding(
         padding: const EdgeInsets.symmetric(vertical: 16.0),
         child: Text(
-          "This is the homepage. You can change language from below.",
+          TranslationKeys.description.tr,
           style: Theme.of(context).textTheme.titleMedium?.copyWith(
-            fontWeight: FontWeight.normal,
-          ),
+                fontWeight: FontWeight.normal,
+              ),
           textAlign: TextAlign.center,
         ),
       );

@@ -9,6 +9,7 @@ import 'core/constants/theme_constants.dart';
 import 'core/controllers/admob/admob_controller.dart';
 import 'core/controllers/home/home_controller.dart';
 import 'core/controllers/theme/theme_controller.dart';
+import 'core/translations/languages.dart';
 import 'ui/views/splash/splash_view.dart';
 
 void main() async {
@@ -29,6 +30,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) => GetMaterialApp(
         title: appName,
         debugShowCheckedModeBanner: false,
+        translations: Languages(),
+        locale: Get.deviceLocale,
+        fallbackLocale: const Locale("en", "US"),
         theme: lightTheme,
         darkTheme: darkTheme,
         themeMode: BaseController.themeController.theme.value,

@@ -29,6 +29,7 @@ class _HomeViewState extends State<HomeView> {
   Widget build(BuildContext context) => const Scaffold(
         appBar: HomeAppBar(),
         body: HomeBody(),
+        extendBody: true,
         bottomNavigationBar: HomeBannerAdCard(),
       );
 }

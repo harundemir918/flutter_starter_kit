@@ -1,12 +1,11 @@
 /*
 Author: Harun Demir
-Date: 16.06.2023
+Date: 26.06.2023
 */
 
 import 'package:flutter/material.dart';
 
 import '../../../../core/base/base_controller.dart';
-import '../../../../core/constants/color_constants.dart';
 import '../../../../core/models/language.dart';
 
 class HomeLanguageCard extends StatelessWidget {
@@ -40,7 +39,6 @@ class HomeLanguageCard extends StatelessWidget {
               if (BaseController.homeController.language.value == lang)
                 const Icon(
                   Icons.check_circle,
-                  color: kAppColor,
                   size: 24.0,
                 ),
             ],
