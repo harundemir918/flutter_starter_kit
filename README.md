@@ -20,7 +20,15 @@ To change the package name of the Flutter Starter Kit, follow these steps:
 2. Replace the package name with your desired package name.
 3. Update the package name in all related files and folders.
 
-### Step 3: Update App Icon
+### Step 3: Update App Name And Other Texts
+
+To change the app name in Flutter Starter Kit, follow these steps:
+
+1. Replace the default app name with your own name. The texts are located at `lib/core/constants/string_constants.dart`.
+2. You can add or edit texts according to your needs.
+3. Use them in your app.
+
+### Step 4: Update App Icon
 
 To change the app icon in Flutter Starter Kit, follow these steps:
 
@@ -28,7 +36,7 @@ To change the app icon in Flutter Starter Kit, follow these steps:
 2. Open the terminal and navigate to the project directory.
 3. Run the command `dart run flutter_launcher_icons` to apply the changed app icon.
 
-### Step 4: Translate Files
+### Step 5: Translate Files
 
 To translate the app into different languages, follow these steps:
 
@@ -39,7 +47,7 @@ To translate the app into different languages, follow these steps:
 5. If you added new language files, register them in `lib/core/translations/languages.dart`.
 6. Define the recently added languages in `lib/core/data/languages_list.dart`.
 
-### Step 5: Adding New Controllers
+### Step 6: Adding New Controllers
 
 To add new controllers to app, follow these steps:
 
@@ -48,6 +56,14 @@ To add new controllers to app, follow these steps:
 3. Register your controller in `lib/main.dart` with `Get.put()`.
 4. Define your controller in `lib/core/base/base_controller.dart` with `Get.find()`.
 5. You can use it like `BaseController.settingsController`.
+
+### Step 7: Theming
+
+To customize app theme, follow these steps:
+
+1. Theme file is in `lib/core/constants/theme_constants.dart`. Open the file.
+2. There are settings for dark and light theme. You can add new properties (e.g. `textTheme`), or edit existing properties.
+3. You can use them in your app with `Theme.of(context)`.
 
 ## Features
 
