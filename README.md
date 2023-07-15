@@ -34,13 +34,13 @@ To change Git origin of Flutter Starter Kit, follow these steps:
 To change the package name of the Flutter Starter Kit, follow these steps:
 
 1. Run this command in Terminal: `flutter pub global activate rename`.
-2. Then run these commands one-by-one:
-   `flutter pub global run rename --bundleId [your package name]`
-   `flutter pub global run rename --appname "[your app name]"`
-   `flutter pub global run rename --appname [your app name] --target ios`
-   `flutter pub global run rename --appname [your app name] --target android`
-   `flutter pub global run rename --appname [your app name] --target web`
-   `flutter pub global run rename --appname [your app name] --target macOS`
+2. Then run these commands one-by-one:\
+   `flutter pub global run rename --bundleId [your package name]`\
+   `flutter pub global run rename --appname "[your app name]"`\
+   `flutter pub global run rename --appname [your app name] --target ios`\
+   `flutter pub global run rename --appname [your app name] --target android`\
+   `flutter pub global run rename --appname [your app name] --target web`\
+   `flutter pub global run rename --appname [your app name] --target macOS`\
    `flutter pub global run rename --appname [your app name] --target windows`
 
 ### Step 4: Update AdMob ID
