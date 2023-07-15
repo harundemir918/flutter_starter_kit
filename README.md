@@ -73,6 +73,7 @@ To customize app theme, follow these steps:
 - Theme changing functionality.
 - Localization support.
 - AdMob integration for showing ads.
+- Comparing versions in app markets.
 
 ## Contributing
 

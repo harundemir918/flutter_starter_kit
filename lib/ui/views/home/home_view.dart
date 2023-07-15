@@ -16,6 +16,7 @@ class _HomeViewState extends State<HomeView> {
   @override
   void initState() {
     BaseController.admobController.createHomeBannerAd(context);
+    BaseController.updateController.compareVersion();
     super.initState();
   }
 

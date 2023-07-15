@@ -8,3 +8,4 @@ const String appLogo = "assets/images/logo.png";
 const String appAuthorName = "Harun Demir";
 const String version = "1.0.0";
 const String fontFamily = "Poppins";
+const String appVersionUpToDate = "App version is up-to-date.";

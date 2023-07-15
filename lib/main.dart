@@ -10,6 +10,7 @@ import 'core/controllers/admob/admob_controller.dart';
 import 'core/controllers/home/home_controller.dart';
 import 'core/controllers/splash/splash_controller.dart';
 import 'core/controllers/theme/theme_controller.dart';
+import 'core/controllers/update/update_controller.dart';
 import 'core/translations/languages.dart';
 import 'ui/views/splash/splash_view.dart';
 
@@ -21,7 +22,8 @@ void main() async {
     ..put(AdmobController())
     ..put(ThemeController())
     ..put(SplashController())
-    ..put(HomeController());
+    ..put(HomeController())
+    ..put(UpdateController());
   runApp(const MyApp());
 }
 
